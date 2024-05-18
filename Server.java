@@ -2,7 +2,7 @@ import java.net.*;
 import java.io.*;
 class Server {
     public static void main(String args[]) {
-    String data = "Oombu da from server!";
+    String data = "hello from server!";
     try {
         ServerSocket srvr = new ServerSocket(1234);
         Socket skt = srvr.accept();
